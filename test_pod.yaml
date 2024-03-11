@@ -15,7 +15,3 @@ spec:
       - name: efs-pvc
         mountPath: "/mnt"
   restartPolicy: "Never"
-  volumes:
-    - name: efs-pvc
-      persistentVolumeClaim:
-        claimName: efs
